@@ -54,7 +54,7 @@ If you use this source code, please cite the following reference:
 @techreport{TuanNguyen2016,
 	author = {Nguyen, Tuan Anh and Duta, Ionut Cosmin and Yamasaki, Toshihiko and Aizawa, Kiyoharu},
 	institution = {The University of Tokyo},
-	title = {{PLD features: How do you apply PCA to deep features for image retrieval?}},
+	title = {{Evaluation of Deep Features with PCA for Fine-grained Image Retrieval}},
 	year = {2016}
 }
 ```
