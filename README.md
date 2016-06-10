@@ -19,6 +19,7 @@ Run
 ```
 $ mkdir build && cd build
 $ cmake .. -DOPENBLAS_INCLUDE_DIR=</path/to/OpenBLAS/include>
+$ make all
 ```
 to compile the source code.
 
