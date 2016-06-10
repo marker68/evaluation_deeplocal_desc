@@ -25,14 +25,13 @@ to compile the source code.
 
 ## Usage
 
-Now to extract the local deep features, see [here](./caffe/README.md).
-
-To extract patches from an image:
+* To extract patches from an image:
 ```
 $ ./main -c extract_patches -i ../IMG_1069.JPG -o ./patches -r 20
 ```
+* Now to extract the local deep features from patch images, see [here](./caffe/README.md).
 
-To apply pca to extracted features:
+* To apply pca to extracted features:
 ```
 $ ./main -c compute_pca -i raw_data.fvecs -o raw_data_128.fvecs -r 128 -D 4096
 ```
